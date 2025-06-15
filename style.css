@@ -1,0 +1,72 @@
+body {
+	font-family: Tenor Sans;
+	letter-spacing: 3px;
+	color: #2C2926;
+	-webkit-font-smoothing: antialiased;
+	max-width: 720px;
+	margin: auto;
+	margin-top: 100px;
+	margin-bottom: 100px;
+}
+
+.name {
+	font-size: 60px;
+	font-weight: 400;
+	text-align: center;
+	margin-bottom: 15px;
+	letter-spacing: 6px;
+}
+
+.sub-name {
+	margin-bottom: 30px;
+}
+
+.block-text {
+	font-family: Open Sans;
+	letter-spacing: 3px;
+	font-size: 20px;
+	font-weight: 400;
+	text-transform: uppercase;
+	text-align: center;
+}
+
+.date {
+	margin-top: 8px;
+	margin-bottom: 8px;
+}
+
+.jump {
+	max-width: 500px;
+	margin: auto;
+	margin-bottom: 54px;
+	img {
+		width: 100%;
+	}
+}
+
+.chunk {
+	font-size: 34px;
+	text-align: center;
+	margin-bottom: 48px;
+}
+
+.sub-hed {
+	margin-bottom: 8px;
+}
+
+.text {
+	font-family: Open Sans;
+	letter-spacing: 2px;
+	font-size: 15px;
+}
+
+.location {
+	font-size: 15px;
+	margin-top: 15px;
+}
+.stay-tuned {
+	text-align: center;
+	margin-top: 50px;
+	margin-bottom: 150px;
+}
+
