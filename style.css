@@ -3,7 +3,7 @@ body {
 	letter-spacing: 3px;
 	color: #2C2926;
 	-webkit-font-smoothing: antialiased;
-	max-width: 720px;
+	max-width: 600px;
 	margin: auto;
 	margin-top: 100px;
 	margin-bottom: 100px;
@@ -34,11 +34,14 @@ body {
 	margin-top: 8px;
 	margin-bottom: 8px;
 }
+.time {
+	margin-top: 8px;
+}
 
 .jump {
 	max-width: 500px;
 	margin: auto;
-	margin-bottom: 54px;
+	margin-bottom: 68px;
 	img {
 		width: 100%;
 	}
@@ -47,11 +50,16 @@ body {
 .chunk {
 	font-size: 34px;
 	text-align: center;
-	margin-bottom: 48px;
+	margin-bottom: 68px;
 }
 
 .sub-hed {
 	margin-bottom: 8px;
+}
+.big-hed {
+	font-size: 40px;
+	margin-top: 68px;
+	margin-bottom: 16px;
 }
 
 .text {
@@ -60,9 +68,18 @@ body {
 	font-size: 15px;
 }
 
-.location {
+.location, .details {
 	font-size: 15px;
-	margin-top: 15px;
+	margin-top: 22px;
+}
+.details {
+	line-height: 20px;
+	letter-spacing: 1px;
+	/*text-align: justify;*/
+	/*text-align-last: center;*/
+}
+.address {
+	margin-top: 8px;
 }
 .stay-tuned {
 	text-align: center;
@@ -70,3 +87,15 @@ body {
 	margin-bottom: 150px;
 }
 
+hr {
+	height: 1px; color: #D3D3D3; background: #D3D3D3; font-size: 0; border: 0;
+}
+a {
+	color: #06402B;
+	border-bottom: 1px dashed #DDD;
+	text-decoration: none;
+	font-weight: bold;
+	&:hover {
+		border-bottom: 1px dashed #06402B;
+	}
+}
