@@ -112,6 +112,13 @@ body {
 	/*text-align: justify;*/
 	/*text-align-last: center;*/
 }
+.testimonial {
+	letter-spacing: 1px;
+	text-align: center;
+	/*font-style: italic;*/
+	font-size: 15px;
+	margin-top: 22px;
+}
 .address {
 	margin-top: 8px;
 }
